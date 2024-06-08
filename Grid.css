@@ -1,11 +1,12 @@
-#container{
+
+  #container{
     height: 100vh;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
     display: grid;
-    background-color: rgb(227, 223, 223);
+    background-color: pink;
     border: 2px solid black;
-  } 
+  }
 
   #header{
     grid-column: 1/13;
@@ -39,6 +40,7 @@
     grid-row: auto;
     border: 5px solid white;
   }
+
   @media(max-width:720px){
     #header{
         grid-column: 1/ span 12;
@@ -55,8 +57,8 @@
       }
      
       #ads{
-        grid-column: 1/4;
-        grid-row: 12;
+        grid-column: 10/13;
+        grid-row: 3/span 9;
       }
     
       #mains{
@@ -65,7 +67,6 @@
       }
       
       #footer{
-        grid-column: 4/10;
-        grid-row: 12;
+        grid-column: 1/13;
   }
 }
