@@ -1,5 +1,4 @@
-
-      flexx{
+   flexx{
         height: 400px;
         width: 400px;
             
@@ -12,6 +11,7 @@
         flex-wrap: wrap;
         align-items: center;
     }       
+
     flexx div{
         height: 100px;
         width: 100px;
